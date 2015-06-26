@@ -148,6 +148,7 @@ aside .button {
 }
 
 footer {
+  font-size: 0.833em;
   background-color: #222;
   color: #fff;
   padding: 1em 1.5em;
@@ -169,6 +170,21 @@ footer {
   header h1 {
     font-size: 1.75em;
     padding: 0;
+  }
+  footer {
+    font-size: inherit;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 719px){
+  aside section {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  aside .button {
+    padding: 1em 2em;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 
@@ -196,7 +212,6 @@ footer {
     color: rgb(255, 240, 90);
   }
   header h2 {
-    clear: both;
     display: block;
     font: italic 1.6em/1em Merriweather;
     color: #000;
@@ -242,18 +257,6 @@ footer {
 @media screen and (min-width: 720px) and (max-width: 840px){
   aside .button {
     font-size: 1em;
-  }
-}
-
-@media screen and (min-width: 540px) and (max-width: 719px){
-  aside section {
-    padding-left: 4em;
-    padding-right: 4em;
-  }
-  aside .button {
-    padding: 1em 2em;
-    margin-left: 20%;
-    margin-right: 20%;
   }
 }
 
