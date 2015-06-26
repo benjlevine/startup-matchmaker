@@ -170,9 +170,6 @@ footer {
   nav svg {
     display: none;
   }
-  header h1 {
-    display: block;
-  }
   nav ul {
     display: block;
   }
@@ -251,5 +248,11 @@ footer {
     padding: 1em 2em;
     margin-left: 20%;
     margin-right: 20%;
+  }
+}
+
+@media screen and (min-width: 960px){
+  header h1 {
+    display: block;
   }
 }
