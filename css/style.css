@@ -123,7 +123,7 @@ main section h1 {
   text-align: center;
   text-transform: uppercase;
   background-color: rgb(255, 240, 90);
-  padding: .5em 0;
+  padding: .5em 1em;
   margin-top: 1em;
   border-radius: .25em;
   box-shadow: 0 .25em 0 0 rgb(210, 195, 60);
@@ -237,14 +237,14 @@ aside .middle {
 @media screen and (min-width: 720px) and (max-width: 840px){
 
 aside .button {
-  font-size: 1.125em;
+  font-size: 1em;
 }
 }
 @media screen and (min-width: 500px) and (max-width: 719px){
 
 aside .button {
-  width: inherit;
+  margin-left: 25%;
+  margin-right: 25%;
 }
-
 
 }
