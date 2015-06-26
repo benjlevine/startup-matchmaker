@@ -75,18 +75,19 @@ p {
 
 .masthead {
   background-color: #000;
-  padding: 1.5em 1.5em 1em 1.5em;
+  padding: 1em;
   border-bottom: rgb(255, 240, 90) solid 0.25em;
 }
 
 header h1 {
-  font: 1.667em/1.125em Merriweather;
+  font: 1.333em/2rem Merriweather;
   color: rgb(255, 240, 90);
   display: inline-block;
 }
 
 nav {
   float:right;
+  display: inline-block;
 }
 
 nav ul {
@@ -159,9 +160,9 @@ footer {
 /* RESPONSIVE
 /*******************************************/
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 400px) {
   header h1 {
-    font-size: 1.875em;
+    font-size: 1.75em;
     padding: 0;
   }
 }
