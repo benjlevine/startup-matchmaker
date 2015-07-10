@@ -178,13 +178,13 @@ footer {
 
 @media screen and (min-width: 540px) and (max-width: 719px){
   aside section {
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 5em;
+    padding-right: 5em;
   }
   aside .button {
     padding: 1em 2em;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 12%;
+    margin-right: 12%;
   }
 }
 
